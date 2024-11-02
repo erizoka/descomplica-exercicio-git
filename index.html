@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,23 @@
             align-items: center;
             background-color: bisque;
             flex-direction: column;
+            width: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px;
+            width: 60%;
+        }
+
+        img {
+            display: flex;
+            width: 300px;
+            margin: 10px;
         }
     </style>
 </head>
@@ -19,6 +36,12 @@
 <body>
     <h1>Descomplica</h1>
     <h3>Exercício - Praticando com Git</h3>
+    <div class="container">
+        <img src="img/image-1.jpg" alt="Imagem 1">
+        <img src="img/image-2.jpg" alt="Imagem 2">
+        <img src="img/image-3.jpg" alt="Imagem 3">
+        <img src="img/image-4.jpg" alt="Imagem 4">
+    </div>
 </body>
 
 </html>
